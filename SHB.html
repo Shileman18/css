@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='./multimidia/kohli.jpg'/>
+    <style>.con{
+        border: 2PX solid red;
+        height: 50px;
+        width: 1000px;
+        background-image: radial-gradient(rgb(242, 17, 200),rgb(255, 196, 0));
+        /* animation:load 3s linear infinite; */
+    }
+   .box{
+        border: 2PX solid red;
+        height: 50px;
+        width: 100px;
+        background-image: radial-gradient(rgb(22, 16, 21),rgb(72, 0, 255));
+        animation:load 3s linear infinite;
+    }
+    
+    @keyframes load{
+        0%{width:100px ;}
+    100%{width: 1000px;}    
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

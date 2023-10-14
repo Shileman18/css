@@ -1,0 +1,21 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid red;
+    align-items: center;
+}
+
+input{
+   width: 600px; 
+   padding-bottom: 10px;
+   padding-left: 10px;
+ 
+}
+.container{
+    background: hsl(240, 100%, 50%);
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}

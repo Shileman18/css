@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    h1{
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+.container{
+width: 80%;
+margin: auto;
+border: 2px solid #f0f0f0;
+height: 1000px;
+}
+.navbar{
+ width: 100%;
+ margin-bottom: 70px;
+
+}
+    .nav{
+        float: right;
+       
+    }
+    .na{
+list-style: none;
+display: inline-block;
+padding: 10px 20px;
+/* text-decoration: none; */
+/* margin: 10px 5px; */
+    }
+    a{
+        padding:20px ;
+    }
+    a:link{
+        text-decoration: none;
+        color: blue;
+    }
+    a:visited{
+        color: rgb(245, 124, 11);
+    }
+  a:hover{
+    padding: 10px;
+    /* background: forestgreen; */
+    border: 1px solid red;
+  }
+  a:active{
+       background-color: blue; 
+    }
+    p:nth-child(even){
+        background: #05ee47;
+    }
+    :target{
+        background: #000;
+    }
+    p::before{
+        content: url('/multimidia/search.png');
+    }
+</style>
+
+</head>
+<body>
+  <div class="container">
+        <h1 >Pseudo classes</h1>
+        <div class="navbar">
+        <ul class="nav">
+            <li  class="na"><a href="https://www.google.com/">Home</a> </li>
+            <li class="na"><a href="https://www.google.com/">About</a></li>
+            <li class="na"><a href="https://www.google.com/">Blog</a></li>
+            <li class="na"><a href="https://www.google.com/">Contact</a></li>
+            <li class="na"><a href="#some_target">Contact</a></li>
+            </ul>
+      </div>
+    
+        <div class="news">
+            <p>Updates: 300 Israelis Killed In Hamas Attack, Gaza Residents Warned Ahead Of Revenge
+                LIVE24 mins ago
+                </p> 
+                <p>
+
+                
+                Mint
+                Indian Air Force Day celebrations: From President Murmu, PM Modi to Amit Shah extend greetings on 91st Foundation Day | Mint
+                4 hours ago
+            </p> 
+            <p id="some_target">
+                Hindustan Times
+                Afghanistan earthquakes death toll crosses 2,000; six villages destroyed
+                3 hours ago
+            </p> 
+            <p>
+                The Hindu
+                LAHDC-Kargil polls: NC wins two seats, BJP one as counting of votes continues
+                6 hours ago
+            </p> 
+            <p>
+                Mint
+                Sikkim floods: Heavy rain continues, rescuers struggle to reach flood-hit areas, over 100 still missing | Mint
+                8 hours ago
+            </p> 
+            <p>
+                The Indian Express
+                Civic body recruitment scam: CBI raids residences of Bengal minister Firhad Hakim, MLA Madan Mitra</p>
+            </p> 
+            <p>
+                Hindustan Times
+                Afghanistan earthquakes death toll crosses 2,000; six villages destroyed
+                3 hours ago
+            </p> 
+            <p>
+                The Hindu
+                LAHDC-Kargil polls: NC wins two seats, BJP one as counting of votes continues
+                6 hours ago
+            </p> 
+            <p>
+                Mint
+                Sikkim floods: Heavy rain continues, rescuers struggle to reach flood-hit areas, over 100 still missing | Mint
+                8 hours ago
+            </p> 
+            <p>
+                The Indian Express
+                Civic body recruitment scam: CBI raids residences of Bengal minister Firhad Hakim, MLA Madan Mitra</p>
+            
+        </div>
+    </div>
+</body>
+</html>

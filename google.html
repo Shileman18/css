@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+
+}
+section{
+
+position: relative;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 100vh;
+}
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end ;
+    padding: 10px;
+}
+section header ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+list-style: none;
+margin: 10px;
+
+}
+section header ul li a{
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+section header ul li button{
+    background: #4584ef;
+    border: none; 
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+section .main{
+    width: 580px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .main .searchbox{
+position: relative;
+width: 100%;
+margin-top: 20px;
+
+}
+section .main .searchbox .search{
+width: 100%;
+padding: 13px;
+padding-left: 45px;
+padding-right: 60px;
+border-radius: 30px;
+border: 1px solid #ccc;
+outline: none;
+font-size: 16px;
+align-items: center;
+
+}
+section .main .searchbox .icons{
+    position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        padding: 12px 20px;
+        justify-content: space-between ;
+        pointer-events: none;
+}
+section .main .buttons{
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Image</a></li>
+                <li><a href="#"><img src="/CSS/multimidia/stock-vector-chemistry-sign-icon-lab-icon-349582052.jpg" alt="" height="40px"></a></li>
+                <li><a href="#"><img src="/multimidia/bars.png" alt="" ></a></li>
+                <li><button> Sign In</button></li>
+            </ul>
+        </header>
+        <div class="main">
+            <img src="/multimidia/google.png" alt="">
+            <div class="searchbox">
+                <input type="text" class="search" placeholder="Search Google or type a URL">
+                <div class="icons">
+                    <div><img src="/multimidia/search.png" alt=""></div>
+                    <div><img src="/multimidia/mic.png" alt=""></div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button>Google search</button>
+                <button>I'm Feeling Lucky</button>
+
+            </div>
+            <div>
+                <a href=""><img src="https://youtube.com/" alt=""></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
